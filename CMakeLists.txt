@@ -14,6 +14,6 @@ add_executable(MosquittoPublisher main.cpp
         )
 
 #TARGET_LINK_LIBRARIES(MosquittoPublisher E:/mosquitto/devel/mosquitto.lib)
-TARGET_LINK_LIBRARIES(MosquittoPublisher E:/mosquitto/mosquitto.dll)
+TARGET_LINK_LIBRARIES(MosquittoPublisher E:/mosquitto/devel/mosquitto.lib)
 #target_link_libraries(pthread_task pthread.a libc.a)
 #install(TARGETS pthread_task DESTINATION ${CMAKE_INSTALL_PREFIX})
